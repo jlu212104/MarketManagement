@@ -1,2 +1,1 @@
-# Supermarket
-ROOM241@JLU212104
+# 主营果蔬的超市管理系统
