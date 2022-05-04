@@ -1,0 +1,59 @@
+
+	/*
+	if (num == 1)
+	{
+		goods_idx = GetGoodsNum(p->goods.name);
+		variety_idx = GetVarietyNum(goods_idx, p->variety.name);
+		supplier_idx = GetSupplierNum(p->supplier.name);
+		if (del_num < p->num)
+		{
+			p->num = p->num - del_num;
+		}
+		else
+		{
+			head = p->next;
+			free(p);
+		}
+	}
+	else if (num == i)
+	{
+		for (int j = 1; j < num - 1; j++)
+		{
+			q = q->next;
+		}
+		p = q->next;
+		int goods_idx = 0, variety_idx = 0, supplier_idx = 0;
+		if (p != NULL)
+		{
+			goods_idx = GetGoodsNum(p->goods.name);
+			variety_idx = GetVarietyNum(goods_idx, p->variety.name);
+			supplier_idx = GetSupplierNum(p->supplier.name);
+		}
+
+		if (p != NULL && p->num < del_num)
+			p->num = p->num - del_num;
+		else
+		{
+			q->next = NULL;
+			free(p);
+		}
+	}
+	else if (num > 1 && num < i)
+	{
+		for (int j = 1; j < num - 1; j++)
+		{
+			q = q->next;
+		}
+		p = q->next;
+		goods_idx = GetGoodsNum(p->goods.name);
+		variety_idx = GetVarietyNum(goods_idx, p->variety.name);
+		supplier_idx = GetSupplierNum(p->supplier.name);
+		if (p->num < del_num)
+			p->num = p->num - del_num;
+		else
+		{
+			q->next = p->next;
+			p = p->next;
+		}
+	}
+	*/
